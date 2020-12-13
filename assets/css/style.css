@@ -55,6 +55,12 @@ img {
   margin: 10px 0;
 }
 
+.flex-container {
+    display: flex;
+    /* flex-direction: column; */ 
+  }
+
+
 .contactme {
   background-color: #778899;
   color: ghostwhite;
@@ -69,3 +75,21 @@ img {
   word-spacing: 15px;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+.box1 {
+  flex:2 1 auto;
+  border: 1px solid red; 
+  font-size: 20px;
+  text-align: center;
+}
+.box2 {
+  flex:1 1 auto;
+  border: 1px solid blue; 
+  font-size: 20 px;
+  text-align: center;
+}
+#run-buddy {
+  border: 1px solid black;
+}
+#week1 {
+  border: 1px solid black;
+} 
