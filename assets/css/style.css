@@ -5,7 +5,7 @@
 }
 
 body {
-  color: #778899;
+  color: grey;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
@@ -49,47 +49,85 @@ header nav ul li a {
 .seconday-border {
   border-color: #39a6b2;
 }
+.section-title {
+  font-size: 30px;
+  margin-bottom: 35px;
+  padding: 20px 50px 20px 50px;
+  text-align: left;
+  border-bottom: 3px solid;
+}
 
 img {
-  width: 15%;
-  margin: 10px 0;
+  width: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.mywork {
+  text-align:center;
+  font-size: 20px;
 }
 
 .flex-container {
     display: flex;
     /* flex-direction: column; */ 
   }
-
-
 .contactme {
-  background-color: #778899;
-  color: ghostwhite;
+  background-color: #FFE4E1;
+  color: grey;
   text-align: left;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
+#reachout {
+  text-align:left;
+  font-size: 20px;
+  padding: 0 100px;
+}
 .contact-info {
-  background-color: #778899;
-  color: ghostwhite;
-  text-align: center;
+  color: grey;
+  text-align: left;
   word-spacing: 15px;
+  font-size: 20px;
+  padding: 0 60px 20px 600px;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .box1 {
   flex:2 1 auto;
-  border: 1px solid red; 
+  border: 1px solid grey; 
   font-size: 20px;
   text-align: center;
 }
+
 .box2 {
   flex:1 1 auto;
-  border: 1px solid blue; 
+  border: 1px solid grey; 
   font-size: 20 px;
   text-align: center;
 }
 #run-buddy {
-  border: 1px solid black;
+  border: 1px solid lightgray;
 }
 #week1 {
-  border: 1px solid black;
+  border: 1px solid lightgray;
 } 
+
+footer {
+  background: #778899;
+  color: ghostwhite;
+  width: 100%;
+  padding: 40px 35px;
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  padding:20px;
+  justify-content: center;
+}
+
+.profile-img{
+  padding-right:10px;
+}
