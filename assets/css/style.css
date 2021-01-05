@@ -1,3 +1,6 @@
+/* <!--Refrence
+<a herf=https://dev.to/drews256/ridiculously-easy-row-and-column-layouts-with-flexbox-1k01--> */
+
 * {
   margin: 0;
   padding: 0;
@@ -94,8 +97,6 @@ img {
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-
-
 #week1 {
   border: 1px solid lightgray;
 } 
@@ -107,8 +108,6 @@ footer {
   padding: 40px 35px;
   text-align: center;
 }
-
-
 
 .profile-img{
   margin-right:10px;
